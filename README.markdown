@@ -18,3 +18,9 @@ The environment variables `POSTFIX_PORT_25_TCP_ADDR` and
 the correct IP/port combo for in internal link to the postfix
 container. So you would configure your django app to send SMTP
 requests there.
+
+This was inspired by
+[catatnight/docker-postfix](https://github.com/catatnight/docker-postfix)
+but we took out the TLS/OpenDKIM stuff and made it a bit simpler to
+link.
+
