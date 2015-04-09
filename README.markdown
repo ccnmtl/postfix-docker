@@ -1,4 +1,4 @@
-stripped down postfix designed for linking to docker containers.
+stripped down postfix container designed for linking to docker containers.
 
 minimal image running postfix and rsyslog. configured to relay for
 other docker containers (on docker's 172.17.0.0/16 range).
